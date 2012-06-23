@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<!--
+		ENSO 1.0 / A minimal HTML5 boilerplate
+	-->
+	<head>
+		<title>Site Title</title>
+
+		<!--
+			Tell browser character encoding type
+		-->
+		<meta charset="UTF-8">
+
+		<!--
+			Order that search engine to index page and follow links on it
+		-->
+		<meta name="robots" content="index, follow">
+
+		<!--
+			Set scaling behaviors for multi-touch devices
+		-->
+		<meta name="viewport" content="width=device-width">
+
+		<!--
+			Description and keywords so people can find you
+		-->
+		<meta name="description" content="description">
+		<meta name="keywords" content="keywords">
+		<meta name="author" content="name">
+		<meta name="copyright" content="&copy; year name">
+
+		<!--
+			Favicon / 16 x 16 pixel icon next to the URL or browser tab
+		-->
+		<link rel="icon" type="image/png" href="">
+		<link rel="stylesheet" href="css/style.css">
+
+		<!--
+			Help IE what to do, because it's derp
+		-->
+		<!--[if IE]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<!-- Wrapper -->
+		<div id="wrapper">
+		</div>
+
+		<!--
+			Site loads faster with scripts at the bottom
+			-
+			Load jQuery: latest if online / fallback if offline
+		-->
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+
+		<!--
+			Your amazing custom scripts
+		-->
+		<script src="js/scripts.js"></script>
+
+		<!--
+			Track your site with Google Analytics / Replace UA-XXXXX-X with your site's ID
+		-->
+		<script>
+			var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+			(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+			g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+			s.parentNode.insertBefore(g,s)}(document,'script'));
+		</script>
+	</body>
+</html>
