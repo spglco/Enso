@@ -1,5 +1,7 @@
 /* 
 	ENSO 1.0 / A minimal HTML5 boilerplate
+	-
+	Spiegel Made
 */
 
 /*
@@ -25,13 +27,6 @@ blockquote:before,blockquote:after,q:before,q:after{content: ""; content: none;}
 table{border-collapse: collapse; border-spacing: 0;}
 
 /*
-	Set down the basics
-*/
-body{}
-::-moz-selection{background: #fe57a1; color: #fff; text-shadow: none;}
-::selection{background: #fe57a1; color: #fff; text-shadow: none;}
-
-/*
 	Links
 */
 a{color: #000;}
@@ -39,3 +34,9 @@ a:visited{color: #000;}
 a:hover{color: #000;}
 a:focus{outline: thin dotted;}
 a:hover, a:active{outline: 0;}
+
+/*
+	Set down the basics + your styles
+*/
+::-moz-selection{background: #fe57a1; color: #fff; text-shadow: none;}
+::selection{background: #fe57a1; color: #fff; text-shadow: none;}
