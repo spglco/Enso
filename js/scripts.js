@@ -1,8 +1,8 @@
 /* 
-	ENSO 1.0 / A minimal HTML5 boilerplate
+	ENSO 1.1 / A minimal HTML5 boilerplate
 */
 
-// Load scripts after page loads
+// Load scripts when HTML Doc & DOM are loaded
 $(document).ready(function(){
 
 });
