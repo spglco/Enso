@@ -18,84 +18,24 @@
 
 	body {
 		color: #333;
-		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-		font-size: 62.5%;
-		font-style: normal;
-		font-weight: normal;
-		letter-spacing: normal;
-		line-height: normal;
-		word-spacing: normal;
+		font-family: sans-serif;
 	}
 
-	h1 {font-size: 3em;}
-	h2 {font-size: 2.4em;}
-	h3 {font-size: 1.8em;}
-
-	p {
-		margin: 20px 0;
-		font-size: 1.2em;
-		line-height: 1.6em;
-	}
-
-	ul {
-		margin: 20px 0 20px 20px;
-		font-size: 1.2em;
-		line-height: 2em;
-		list-style: disc;
-	}
-
-	a, a:visited {
-		margin: 20px 0;
-		color: #333;
-		font-size: 1.2em;
-		line-height: 1.6em;
-		text-decoration: none;
-		border-bottom: 1px dotted #333;
-	}
+	a, a:visited {text-decoration: none;}
 	a:hover {color: #999;}
 	a:focus {outline: thin dotted;}
 	a:hover, a:active {outline: 0;}
-
-	#heart {color: #d00d1e;}
 
 /*
 	Layout
 */
 	body {background: #eee;}
 
-	#main-wrapper {
-		margin: 0 auto;
-		width: 100%;
-		background: #fff;
-	}	
-
-	section {
-		margin: 0 auto;
-		padding: 40px 0 0;
-		width: 300px;
-	}
-	section:last-child {padding: 40px 0 120px;}
-
-	.mq {
-		margin: 5px 0 0;
-		display: none;
-	}
-	.deto {display: inline-block;}
-
 	/* Tablet portrait */
-	@media only screen and (min-width: 768px) and (max-width: 959px) {
-		.mq {display: none;}
-		.tapo {display: inline-block;}
-	}
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
 
 	/* Mobile landscape */
-	@media only screen and (min-width: 480px) and (max-width: 767px) {
-		.mq {display: none;}
-		.mola {display: inline-block;}
-	}
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
 
 	/* Mobile portrait */
-	@media only screen and (max-width: 479px) {
-		.mq {display: none;}
-		.mopo {display: inline-block;}
-	}
+	@media only screen and (max-width: 479px) {}
