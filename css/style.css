@@ -1,0 +1,101 @@
+/*
+	CSS Reset - Teach that browser who's boss
+*/
+	html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figcaption,figure,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {margin: 0; padding: 0; border: 0; font-size: 100%; vertical-align: baseline;}
+	article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {display: block;}
+	body {line-height: 1;}
+	ol,ul {list-style: none;}
+	blockquote,q {quotes: none;}
+	blockquote:before,blockquote:after,q:before,q:after {content: ''; content: none;}
+	table {border-collapse: collapse; border-spacing: 0;}
+	img {vertical-align: middle;}
+
+/*
+	Typography
+*/
+	::-moz-selection {background: #bada55; 	color: #eee; text-shadow: none;}
+	::selection {background: #bada55; color: #eee; text-shadow: none;}
+
+	body {
+		color: #333;
+		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: 62.5%;
+		font-style: normal;
+		font-weight: normal;
+		letter-spacing: normal;
+		line-height: normal;
+		word-spacing: normal;
+	}
+
+	h1 {font-size: 3em;}
+	h2 {font-size: 2.4em;}
+	h3 {font-size: 1.8em;}
+
+	p {
+		margin: 20px 0;
+		font-size: 1.2em;
+		line-height: 1.6em;
+	}
+
+	ul {
+		margin: 20px 0 20px 20px;
+		font-size: 1.2em;
+		line-height: 2em;
+		list-style: disc;
+	}
+
+	a, a:visited {
+		margin: 20px 0;
+		color: #333;
+		font-size: 1.2em;
+		line-height: 1.6em;
+		text-decoration: none;
+		border-bottom: 1px dotted #333;
+	}
+	a:hover {color: #999;}
+	a:focus {outline: thin dotted;}
+	a:hover, a:active {outline: 0;}
+
+	#heart {color: #d00d1e;}
+
+/*
+	Layout
+*/
+	body {background: #eee;}
+
+	#main-wrapper {
+		margin: 0 auto;
+		width: 100%;
+		background: #fff;
+	}	
+
+	section {
+		margin: 0 auto;
+		padding: 40px 0 0;
+		width: 300px;
+	}
+	section:last-child {padding: 40px 0 120px;}
+
+	.mq {
+		margin: 5px 0 0;
+		display: none;
+	}
+	.deto {display: inline-block;}
+
+	/* Tablet portrait */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		.mq {display: none;}
+		.tapo {display: inline-block;}
+	}
+
+	/* Mobile landscape */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.mq {display: none;}
+		.mola {display: inline-block;}
+	}
+
+	/* Mobile portrait */
+	@media only screen and (max-width: 479px) {
+		.mq {display: none;}
+		.mopo {display: inline-block;}
+	}
