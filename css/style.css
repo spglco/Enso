@@ -13,13 +13,13 @@
 /*
 	Typography
 */
-	::-moz-selection {background: #bada55; 	color: #eee; text-shadow: none;}
+	::-moz-selection {background: #bada55; color: #eee; text-shadow: none;}
 	::selection {background: #bada55; color: #eee; text-shadow: none;}
 
+	html {font-size: 10px;}
 	body {
 		color: #333;
 		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-		font-size: 62.5%;
 		font-style: normal;
 		font-weight: normal;
 		letter-spacing: normal;
@@ -27,28 +27,28 @@
 		word-spacing: normal;
 	}
 
-	h1 {font-size: 3em;}
-	h2 {font-size: 2.4em;}
-	h3 {font-size: 1.8em;}
+	h1 {font-size: 3rem;}
+	h2 {font-size: 2.4rem;}
+	h3 {font-size: 1.8rem;}
 
 	p {
 		margin: 20px 0;
-		font-size: 1.2em;
-		line-height: 1.6em;
+		font-size: 1.2rem;
+		line-height: 1.8rem;
 	}
 
 	ul {
 		margin: 20px 0 20px 20px;
-		font-size: 1.2em;
-		line-height: 2em;
+		font-size: 1.2rem;
+		line-height: 2rem;
 		list-style: disc;
 	}
 
 	a, a:visited {
 		margin: 20px 0;
 		color: #333;
-		font-size: 1.2em;
-		line-height: 1.6em;
+		font-size: 1.2rem;
+		line-height: 1.6rem;
 		text-decoration: none;
 		border-bottom: 1px dotted #333;
 	}
