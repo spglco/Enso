@@ -11,13 +11,31 @@
 	img {vertical-align: middle;}
 
 /*
-	Typography
+	Basic settings
 */
 	::-moz-selection {background: #bada55; color: #eee; text-shadow: none;}
 	::selection {background: #bada55; color: #eee; text-shadow: none;}
 
+	a, a:visited {
+		margin: 20px 0;
+		color: #333;
+		font-size: 1.2rem;
+		line-height: 1.6rem;
+		text-decoration: none;
+		border-bottom: 1px dotted #333;
+	}
+	a:hover {color: #999;}
+	a:focus {outline: thin dotted;}
+	a:hover, a:active {outline: 0;}
+
+/*
+	Layout
+*/
 	html {font-size: 10px;}
+
 	body {
+		background: #eee;
+
 		color: #333;
 		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 		font-style: normal;
@@ -26,6 +44,26 @@
 		line-height: normal;
 		word-spacing: normal;
 	}
+
+	#main-wrapper {
+		margin: 0 auto;
+		width: 100%;
+		background: #fff;
+	}
+
+	section {
+		margin: 0 auto;
+		padding: 40px 0 0;
+		width: 300px;
+	}
+
+	section:last-child {padding: 40px 0 120px;}
+
+	.mq {
+		margin: 5px 0 0;
+		display: none;
+	}
+	.deto {display: inline-block;}
 
 	h1 {font-size: 3rem;}
 	h2 {font-size: 2.4rem;}
@@ -44,43 +82,7 @@
 		list-style: disc;
 	}
 
-	a, a:visited {
-		margin: 20px 0;
-		color: #333;
-		font-size: 1.2rem;
-		line-height: 1.6rem;
-		text-decoration: none;
-		border-bottom: 1px dotted #333;
-	}
-	a:hover {color: #999;}
-	a:focus {outline: thin dotted;}
-	a:hover, a:active {outline: 0;}
-
 	#heart {color: #d00d1e;}
-
-/*
-	Layout
-*/
-	body {background: #eee;}
-
-	#main-wrapper {
-		margin: 0 auto;
-		width: 100%;
-		background: #fff;
-	}
-
-	section {
-		margin: 0 auto;
-		padding: 40px 0 0;
-		width: 300px;
-	}
-	section:last-child {padding: 40px 0 120px;}
-
-	.mq {
-		margin: 5px 0 0;
-		display: none;
-	}
-	.deto {display: inline-block;}
 
 	/* Tablet portrait */
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
